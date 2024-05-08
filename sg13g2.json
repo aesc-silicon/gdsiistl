@@ -2,109 +2,109 @@
     {
         "LAYER_NUMBER": 40,
         "DATA_TYPE": 0,
-        "LAYER_NAME": "substrate",
+        "LAYER_NAME": "Substrate",
         "Z_POSITION": [-0.50, 0.00]
     },
     {
         "LAYER_NUMBER": 31,
         "DATA_TYPE": 0,
-        "LAYER_NAME": "nwell",
+        "LAYER_NAME": "NWell",
         "Z_POSITION": [-0.40, 0.00]
     },
     {
         "LAYER_NUMBER": 1,
         "DATA_TYPE": 0,
-        "LAYER_NAME": "active",
+        "LAYER_NAME": "Activ",
         "Z_POSITION": [-0.40, 0.00]
     },
     {
         "LAYER_NUMBER": 5,
         "DATA_TYPE": 0,
-        "LAYER_NAME": "gatepoly",
+        "LAYER_NAME": "GatPoly",
         "Z_POSITION": [-0.40, 0.00]
     },
     {
         "LAYER_NUMBER": 6,
         "DATA_TYPE": 0,
-        "LAYER_NAME": "contact",
+        "LAYER_NAME": "Cont",
         "Z_POSITION": [0.00, 0.64]
     },
     {
         "LAYER_NUMBER": 8,
         "DATA_TYPE": 0,
-        "LAYER_NAME": "metal1",
+        "LAYER_NAME": "Metal1",
         "Z_POSITION": [0.64, 1.06]
     },
     {
         "LAYER_NUMBER": 19,
         "DATA_TYPE": 0,
-        "LAYER_NAME": "via1",
+        "LAYER_NAME": "Via1",
         "Z_POSITION": [1.06, 1.60]
     },
     {
         "LAYER_NUMBER": 10,
         "DATA_TYPE": 0,
-        "LAYER_NAME": "metal2",
+        "LAYER_NAME": "Metal2",
         "Z_POSITION": [1.60, 2.09]
     },
     {
         "LAYER_NUMBER": 29,
         "DATA_TYPE": 0,
-        "LAYER_NAME": "via2",
+        "LAYER_NAME": "Via2",
         "Z_POSITION": [2.09, 2.63]
     },
     {
         "LAYER_NUMBER": 30,
         "DATA_TYPE": 0,
-        "LAYER_NAME": "metal3",
+        "LAYER_NAME": "Metal3",
         "Z_POSITION": [2.63, 3.12]
     },
     {
         "LAYER_NUMBER": 49,
         "DATA_TYPE": 0,
-        "LAYER_NAME": "via3",
+        "LAYER_NAME": "Via3",
         "Z_POSITION": [3.12, 3.66]
     },
     {
         "LAYER_NUMBER": 50,
         "DATA_TYPE": 0,
-        "LAYER_NAME": "metal4",
+        "LAYER_NAME": "Metal4",
         "Z_POSITION": [3.66, 4.15]
     },
     {
         "LAYER_NUMBER": 66,
         "DATA_TYPE": 0,
-        "LAYER_NAME": "via4",
+        "LAYER_NAME": "Via4",
         "Z_POSITION": [4.15, 4.69]
     },
     {
         "LAYER_NUMBER": 67,
         "DATA_TYPE": 0,
-        "LAYER_NAME": "metal5",
+        "LAYER_NAME": "Metal5",
         "Z_POSITION": [4.69, 5.18]
     },
     {
         "LAYER_NUMBER": 125,
         "DATA_TYPE": 0,
-        "LAYER_NAME": "topvia1",
+        "LAYER_NAME": "TopVia1",
         "Z_POSITION": [5.18, 6.03]
     },
     {
         "LAYER_NUMBER": 126,
         "DATA_TYPE": 0,
-        "LAYER_NAME": "topmetal1",
+        "LAYER_NAME": "TopMetal1",
         "Z_POSITION": [6.03, 8.03]
     },
     {
         "LAYER_NUMBER": 133,
         "DATA_TYPE": 0,
-        "LAYER_NAME": "topvia2",
+        "LAYER_NAME": "TopVia2",
         "Z_POSITION": [8.03, 10.83]
     },
     {
         "LAYER_NUMBER": 134,
         "DATA_TYPE": 0,
-        "LAYER_NAME": "topmetal2",
+        "LAYER_NAME": "TopMetal2",
         "Z_POSITION": [10.83, 13.83]
     }
 ]
