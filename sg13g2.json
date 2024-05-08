@@ -18,7 +18,7 @@
         "Z_POSITION": [-0.40, 0.00]
     },
     {
-        "LAYER_NUMBER": 1,
+        "LAYER_NUMBER": 5,
         "DATA_TYPE": 0,
         "LAYER_NAME": "gatepoly",
         "Z_POSITION": [-0.40, 0.00]
@@ -42,13 +42,13 @@
         "Z_POSITION": [1.06, 1.60]
     },
     {
-        "LAYER_NUMBER": 8,
+        "LAYER_NUMBER": 10,
         "DATA_TYPE": 0,
-        "LAYER_NAME": "metal22",
+        "LAYER_NAME": "metal2",
         "Z_POSITION": [1.60, 2.09]
     },
     {
-        "LAYER_NUMBER": 19,
+        "LAYER_NUMBER": 29,
         "DATA_TYPE": 0,
         "LAYER_NAME": "via2",
         "Z_POSITION": [2.09, 2.63]
@@ -108,3 +108,4 @@
         "Z_POSITION": [10.83, 13.83]
     }
 ]
+
