@@ -32,8 +32,7 @@ parser.add_argument("gds_path", help="Specify the path to the GDSII file to proc
 parser.add_argument("-l",
                     "--layers",
                     metavar="layer_file.json",
-                    help="Specify the path to the JSON file containing the layers to extract. (Default: sky130.json)",
-                    default="sky130.json")
+                    help="Specify the path to the JSON file containing the layers to extract.")
 
 args = parser.parse_args()
 gdsii_file_path = args.gds_path
