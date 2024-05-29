@@ -162,6 +162,10 @@ for layer_number, polygons in layers.items():
                               points_k[:, 0]-points_i[:, 0]), axis=1)
         length_ij = np.linalg.norm(normal_ij, axis=1)
         length_ik = np.linalg.norm(normal_ik, axis=1)
+        if 0 in length_ij:
+            continue
+        if 0 in length_ik:
+            continue
         normal_ij /= np.stack((length_ij, length_ij), axis=1)
         normal_ik /= np.stack((length_ik, length_ik), axis=1)
         if clockwise:
@@ -258,6 +262,10 @@ for layer in layers:
 
     layer_pointer = 0
     for index, (polygon, triangles, clockwise) in enumerate(layers[layer]):
+        if triangles is None:
+            continue
+        if polygon is None:
+            continue
 
         # The numpy-stl library expects counterclockwise triangles. That is,
         # one side of each triangle is the outside surface of the STL file
