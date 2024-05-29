@@ -1,4 +1,4 @@
-This version of gdsiistl is adapted to work with the GDS files generated for the SkyWater SKY130 PDK
+This version of gdsiistl is adapted to work with the GDS files generated for the SkyWater SKY130 and IHP SG13G2 PDK
 
 Basically the `datatype` was added to be able to identify the different layers.
 It also includes in the process some of the more common SDK130 layers (nwell, diff, poly, li1, etc) 
@@ -31,22 +31,20 @@ The modules `gdspy` and `triangle` compile C libraries, which may cause trouble 
 Finally:
 
 ```
-git clone https://github.com/mbalestrini/gdsiistl
+git clone https://github.com/aesc-silicon/gdsiistl
 ```
 
 # Usage
 
 Suppose you have a GDSII file called `file.gds` that is to be converted to a 3D STL format.
 
-First, choose GDSII layers to export and their thicknesses by editing `gdsiistl.py`, specifically, by entering the desired GDSII layer numbers and z bounds in the `layerstack` variable around line 35.
-
-Second, run `python3 gdsiistl.py file.gds`. The file will be processed and output files written to `file.gds_layername1.stl`, `file.gds_layername2.stl`, etc.
+Run `python3 gdsiistl.py -l layer.json file.gds`. The file will be processed and output files written to `file.gds_layername1.stl`, `file.gds_layername2.stl`, etc.
 
 Concretely:
 
 ```
 cd gdsiistl
-python gdsiistl.py example/example.gds
+python gdsiistl.py -l sg13g2.json example/example.gds
 # output files are example/example.gds_substrate.stl, etc.
 ```
 
